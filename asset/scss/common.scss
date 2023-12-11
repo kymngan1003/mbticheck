@@ -1,0 +1,30 @@
+$main-dark-color: #2a2043;
+$main-light-color: #f9bf8f;
+$main-lighter-color: #fee9d6;
+
+
+//reponsive
+@mixin responsiveMax($maxW) {
+    @media only screen and (max-width: $maxW) {
+        @content;
+    }
+}
+
+@mixin responsiveMin($minW) {
+    @media only screen and (min-width: $minW) {
+        @content;
+    }
+}
+
+@mixin responsiveSpace($minW, $maxW) {
+    @media only screen and (min-width: $minW) and (max-width: $maxW) {
+        @content;
+    }
+}
+
+//animation
+@mixin keyFrames($name){
+    @keyframes #{$name}{
+        @content;
+    }
+}

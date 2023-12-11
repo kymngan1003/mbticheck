@@ -1,0 +1,208 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fee9d6;
+}
+
+.creen-limmit-width {
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main .bg-bubbles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  overflow: hidden;
+}
+.main .bg-bubbles li {
+  position: absolute;
+  list-style: none;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.4);
+  bottom: -160px;
+  -webkit-animation: square 25s infinite;
+  animation: square 25s infinite;
+  transition-timing-function: linear;
+}
+.main .bg-bubbles li:nth-child(1) {
+  left: 10%;
+}
+.main .bg-bubbles li:nth-child(2) {
+  left: 20%;
+  width: 80px;
+  height: 80px;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-duration: 17s;
+  animation-duration: 17s;
+}
+.main .bg-bubbles li:nth-child(3) {
+  left: 25%;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+}
+.main .bg-bubbles li:nth-child(4) {
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  -webkit-animation-duration: 22s;
+  animation-duration: 22s;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+.main .bg-bubbles li:nth-child(5) {
+  left: 70%;
+}
+.main .bg-bubbles li:nth-child(6) {
+  left: 80%;
+  width: 120px;
+  height: 120px;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.main .bg-bubbles li:nth-child(7) {
+  left: 32%;
+  width: 160px;
+  height: 160px;
+  -webkit-animation-delay: 7s;
+  animation-delay: 7s;
+}
+.main .bg-bubbles li:nth-child(8) {
+  left: 55%;
+  width: 20px;
+  height: 20px;
+  -webkit-animation-delay: 15s;
+  animation-delay: 15s;
+  -webkit-animation-duration: 40s;
+  animation-duration: 40s;
+}
+.main .bg-bubbles li:nth-child(9) {
+  left: 25%;
+  width: 10px;
+  height: 10px;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-duration: 40s;
+  animation-duration: 40s;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.main .bg-bubbles li:nth-child(10) {
+  left: 90%;
+  width: 160px;
+  height: 160px;
+  -webkit-animation-delay: 11s;
+  animation-delay: 11s;
+}
+@keyframes square {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-700px) rotate(600deg);
+  }
+}
+
+#home, #question, #result, #full-result {
+  text-align: center;
+  padding: 7.5px 15px;
+  margin-top: 30px;
+  position: relative;
+  z-index: 3;
+  height: 100%;
+  width: 100%;
+  display: none;
+  color: #2a2043;
+}
+#home.active, #question.active, #result.active, #full-result.active {
+  display: block;
+}
+
+#home .home-header {
+  display: flex;
+  justify-content: space-between;
+}
+#home .home-header .home-header-name {
+  font-weight: 600;
+}
+#home .home-header .home-lang .home-lang-img {
+  width: 30px;
+  border-radius: 50%;
+}
+#home .home-introduce {
+  margin-top: 30px;
+}
+#home .home-introduce .home-checkBtn {
+  cursor: pointer;
+  font-size: 150%;
+  margin-top: 30px;
+  padding: 7.5px 15px;
+  border: none;
+  border-radius: 10px;
+  background: #f9bf8f;
+}
+
+#question .question-item .question-content {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  font-size: 40px;
+  font-weight: 600;
+}
+#question .question-item .question-answer .question-answer-item {
+  background: #f9bf8f;
+  width: 300px;
+  padding: 15px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  cursor: pointer;
+  user-select: none;
+}
+
+#result .result-tilte {
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+#result .result-content {
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.result-btn {
+  padding: 7.5px 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #f9bf8f;
+  display: block;
+  margin-bottom: 10px;
+}
+
+#full-result .fullResult-item {
+  border-bottom: 1px solid #ccc;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding-bottom: 7.5px;
+}
+#full-result .fullResult-item:last-child {
+  border-bottom: none;
+}
+
+/*# sourceMappingURL=index.css.map */

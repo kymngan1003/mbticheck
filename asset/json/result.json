@@ -1,0 +1,82 @@
+[
+    {
+      "type" : "ENTJ",
+      "vie" : "Kiểu lãnh đạo. Những người có năng lượng dẫn dắt mọi người bằng tầm nhìn.",
+      "korean": "지도자형. 비전을 가지고 사람들을 활력적으로 이끌어가는 사람들."
+    },
+    {
+      "type" : "ENFJ",
+      "vie" : "Kiểu người cho đi. Những người thúc đẩy sự phát triển của người khác và hợp tác.",
+      "korean": "언변능숙형. 타인의 성장을 도모하고 협동하는 사람들."
+    },
+    {
+      "type" : "ESFJ",
+      "vie" : "Kiểu người quan tâm. Những người phục vụ người khác bằng lòng tốt và sự thực tế.",
+      "korean": "친선도모형. 친절과 현실감을 바탕으로 타인에게 봉사하는 사람들."
+    },
+    {
+      "type" : "ESTJ",
+      "vie" : "Kiểu người thực thi. Những người làm nhiều công việc mang tính văn thư, thiết thực và thực tế.",
+      "korean": "사업가형. 사무적, 실용적, 현실적으로 일을 많이 하는 사람들."
+    },
+    {
+      "type" : "ENTP",
+      "vie" : "Kiểu người có tầm nhìn. Những người thử những điều mới với trí tưởng tượng phong phú.",
+      "korean": "발명가형. 풍부한 상상력을 가지고 새로운 것을 도전하는 사람들."
+    },
+    {
+      "type" : "ENFP",
+      "vie" : "Kiểu người truyền cảm hứng. Những người đam mê tạo ra các mối quan hệ mới.",
+      "korean": "스파크형. 열정적으로 새로운 관계를 만드는 사람들."
+    },
+    {
+      "type" : "ESFP",
+      "vie" : "Kiểu người biểu diễn. Những người thân thiện làm tâm trạng tươi sáng hơn.",
+      "korean": "사교적인 유형. 분위기를 고조시키는 우호적 사람들."
+    },
+    {
+      "type" : "ESTP",
+      "vie" : "Kiểu người thực tế. Những người thích các hoạt động khác nhau như bạn bè, tập thể dục, ăn uống, v.v.",
+      "korean": "수완 좋은 활동가형. 친구, 운동, 음식 등 다양한 활동을 선호하는 사람들"
+    },
+    {
+      "type" : "INTP",
+      "vie" : "Kiểu người tư tưởng. Các nhà chiến lược xuất sắc với quan điểm phê phán.",
+      "korean": "아이디어 뱅크형. 비평적인 관점을 가지고 있는 뛰어난 전략가들."
+    },
+    {
+      "type" : "INFP",
+      "vie" : "Kiểu người hòa giải. Những người tạo ra một thế giới lý tưởng.",
+      "korean": "잔다르크형. 이상적인 세상을 만들어가는 사람들."
+    },
+    {
+      "type" : "ISFP",
+      "vie" : "Kiểu người nghệ sĩ. Những người khiêm tốn với sự nhạy cảm ấm áp.",
+      "korean": "성인군자형. 따뜻한 감성을 갖고 있는 겸손한 사람들."
+    },
+    {
+      "type" : "ISTP",
+      "vie" : "Kiểu người chế tạo. Những người có tư duy logic và có khả năng thích ứng thăng tiến tuyệt vời.",
+      "korean": "백과사전형. 논리적이고 뛰어난 상향 적응력을 가지고 있는 사람들."
+    },
+    {
+      "type" : "INTJ",
+      "vie" : "Kiểu nhà khoa học. Những người tập hợp tất cả các phần lại với nhau và trình bày một tầm nhìn.",
+      "korean": "과학자형. 전체적인 부분을 조합하여 비젼을 제시하는 사람들."
+    },
+    {
+      "type" : "INFJ",
+      "vie" : "Kiểu người ủng hộ. Những người có cái nhìn sâu sắc về con người.",
+      "korean": "예언자형. 사람과 관련된 뛰어난 통찰력을 가지고 있는 사람들."
+    },
+    {
+      "type" : "ISFJ",
+      "vie" : "Kiểu người bảo vệ.",
+      "korean": "임금 뒤편의 권력형. 성실하고 온화하며 협조를 잘하는 사람들."
+    },
+    {
+      "type" : "ISTJ",
+      "vie" : "Kiểu người trách nhiệm. Những người hoàn thành một cái gì đó họ bắt đầu.",
+      "korean": "세상의 소금형. 한 번 시작한 일은 끝까지 해내는 사람들. "
+    }
+]
