@@ -31,20 +31,6 @@
             console.error('Error loading JSON files:', error);
         });
 
-        function templateUtil() {
-            this.render = function (idTemplate, data) {
-                let tmpl = $("#" + idTemplate).html();
-                mustache.tags = ['[[', ']]'];
-                mustache.parse(tmpl);
-                let rendered = mustache.render(tmpl, data);
-                return rendered;
-
-            };
-
-        }
-
-        var temp = new templateUtil();
-
         this.start = function (){
             $('#home .home-checkBtn').click(function (){
                 $('#home').removeClass('active');
